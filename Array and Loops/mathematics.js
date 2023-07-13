@@ -4,14 +4,10 @@ export function add(a, b){
     return a + b
 }
 
-function sub(a, b){
-    return a - b
+export function length(list){
+    let count = 0
+    list.forEach(item => {
+        console.log(item)
+    })
 }
 
-function div(a, b){
-    return a / b
-}
-
-function mult(a, b){
-    return a * b
-}
