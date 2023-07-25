@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+}
+
+:root{
+    --bg: orange;
+    --btn-color: green;
+}
+.container{
+    width: 100%;
+}
+.top_score{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto 0 auto;
+    border: 2px solid green;
+}
+p{
+    text-align: center;
+}
+.board-container{
+    margin: 5% auto;
+    width: 300px;
+}
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.board button{
+    height: 100px;
+    width: 100px;
+    background-color: var(--btn-color);
+}

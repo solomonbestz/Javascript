@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 90vh;
+    border: 2px solid black;
+}
+.first_page{
+    background: orange;
+    width: 100%;
+    height: 100%;
+}
+
+.second_page{
+    background: green;
+    width: 100%;
+    height: 100%;
+}
