@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 300px;
+    margin: 10% auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.div-flex{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1{
+    background: lightblue;
+    width: 100px;
+}
+.div2{
+    background: lightpink;
+    max-width: 600px;
+    flex: 1;
+}
+.div3{
+    background: lightblue;
+    width: 100px;
+}
+.calc-entry{
+    margin: auto;
+    text-align: center
+}
+.calc-entry input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.button-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
